@@ -1,0 +1,15 @@
+[tools]
+dotnet = "10.0.402"
+node = "26"
+
+[tasks."dev:fe"]
+dir = "frontend"
+run = "pnpm run dev"
+
+[tasks."lint:fe"]
+dir = "frontend"
+run = "pnpm run lint"
+
+[tasks."format:fe"]
+dir = "frontend"
+run = "pnpm run format"
